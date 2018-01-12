@@ -16,7 +16,7 @@ from threading import Thread
 from googletrans import Translator
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib
 
-cl = LINETCR.LINE()
+cl = yuda.LINE()
 #cl.login(qr=True)
 cl.login(token='isi token mu')
 cl.loginResult()
