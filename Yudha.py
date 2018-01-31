@@ -12,7 +12,7 @@ import requests
 import goslate
 from io import StringIO
 from threading import Thread
-#from gtts import gTTS
+from gtts import gTTS
 from googletrans import Translator
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib
 
