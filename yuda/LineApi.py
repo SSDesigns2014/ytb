@@ -346,7 +346,7 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("\nLogin Sukses Bang!\nSupport By TeamGreatBot\nhttps://line.me/ti/p/~danrfq\n\n\n\n\n")
+      print("\nLogin Sukses Bang!\nSupport By Yudha_Bots \nhttps://line.me/ti/p/~iniyud\n\n\n\n\n")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
