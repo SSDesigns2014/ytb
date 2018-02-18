@@ -2737,22 +2737,22 @@ thread2 = threading.Thread(target=nameUpdate)
 thread2.daemon = True
 thread2.start()
 #-------------------------------------------------------------------------------------------#
-def autolike():
-     for zx in range(0,50):
-        hasil = cl.activity(limit=10000)
-        if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
-          try:    
-            cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aᴜᴛᴏ Lɪᴋᴇ ʙʏ Ꭲ̡̦͎͇͈̘̻̎̉̅́̒͗ͅϵѧᴍ̸̩̟̗͎̯͙̺̺̜̬̙̟̀̑̓͋̐͆͌̓̒́̒͗͒͑̚͟͜ᎶʀҽѧᴛᏴøᴛ̢͓̹̗̘̠̪̖͗̃̄̅̆̽̀̕͜͞\n\nline://ti/p/TtnMdaDG_d")
-            print "Like Boss"
-          except:
-            pass
-        else:
-            print "Udah Di Like Duluan Bang"
-     time.sleep(600)
-thread2 = threading.Thread(target=autolike)
-thread2.daemon = True
-thread2.start()
+#def autolike():
+     #for zx in range(0,50):
+        #hasil = cl.activity(limit=10000)
+        #if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
+          #try:    
+            #cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
+            #cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aᴜᴛᴏ Lɪᴋᴇ ʙʏ Ꭲ̡̦͎͇͈̘̻̎̉̅́̒͗ͅϵѧᴍ̸̩̟̗͎̯͙̺̺̜̬̙̟̀̑̓͋̐͆͌̓̒́̒͗͒͑̚͟͜ᎶʀҽѧᴛᏴøᴛ̢͓̹̗̘̠̪̖͗̃̄̅̆̽̀̕͜͞\n\nline://ti/p/TtnMdaDG_d")
+            #print "Like Boss"
+          #except:
+            #pass
+        #else:
+            #print "Udah Di Like Duluan Bang"
+     #time.sleep(600)
+#thread2 = threading.Thread(target=autolike)
+#thread2.daemon = True
+#thread2.start()
 #------------------------------------------------------------------------------------------#
 while True:
     try:
