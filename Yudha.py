@@ -18,7 +18,7 @@ from googletrans import Translator
 
 cl = yuda.LINE()
 #cl.login(qr=True)
-cl.login(token='isi token mu')
+cl.login(token='isi_token_mu')
 cl.loginResult()
 
 print "Login Success Boss"
